@@ -6,8 +6,8 @@
       src = pkgs.fetchFromGitHub {
         owner = "zenbur";
         repo = "flasky-nixqy";
-        rev = "c42a1577495a20ab4f229851b7bb91f1717a8523";
-        sha256 = "10xm2jc26zi0h1ldz2vkvw143c9k5g2s6k5qs9bba9nqvmavffvx";
+        rev = "e2cfea86c64cd011a1875089e89bf945c06f733b";
+        sha256 = "0sj1kr001dvia3vxx2lb79x4hz2lqxcjlvf8daqd0sw8n0sncgvz";
       };
 
       buildInputs = [
