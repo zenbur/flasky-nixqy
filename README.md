@@ -25,7 +25,7 @@ nixos-rebuild switch
 ```
 nix-env -iA nixos.git  
 git clone https://github.com/zenbur/flasky-nixqy.git  
-cd flasy-nixqy/  
+cd flasky-nixqy/  
 nix-env -if default.nix
 ```
 
