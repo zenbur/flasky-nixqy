@@ -1,7 +1,7 @@
 {pkgs ? import <nixpkgs> {} }:
     with pkgs.python3Packages;
      buildPythonApplication rec {
-      pname     = "Ruben-Name-flask";
+      pname     = "Ruben-name-flask";
       version   = "1.0.0";
       src = pkgs.fetchFromGitHub {
         owner = "zenbur";
