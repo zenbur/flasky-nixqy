@@ -20,7 +20,7 @@
 
       meta = with pkgs.stdenv.lib; {
         homepage = "zenbur.wordpress.com";
-        description = "Simple build that runs a simple flask web app if called with nix-shell";
+        description = "Simple .nix build that builds a very simple flask web app";
         license = licenses.mit;
         maintainers = with maintainers; [ "RUBEN" ];
       };
