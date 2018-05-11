@@ -24,7 +24,7 @@ nixos-rebuild switch
 # How to build in environment
 ```
 nix-env -iA nixos.git  
-git-clone https://github.com/zenbur/flasky-nixqy.git  
+git clone https://github.com/zenbur/flasky-nixqy.git  
 cd flasy-nixqy/  
 nix-env -if default.nix
 ```
